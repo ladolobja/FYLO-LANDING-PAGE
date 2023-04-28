@@ -53,6 +53,7 @@ main {
 .illustration-1 {
     width: 100%;
     margin-top: 98px;
+
 }
 
 .secure {
@@ -79,7 +80,7 @@ main {
     height: 40px;
 }
 
-button {
+.button {
     width: 100%;
     padding: 12px 0;
     background: #2F65F8;
@@ -273,37 +274,214 @@ footer {
     margin-bottom: 16px;
 }
 
-.phonee{
+.phonee {
     margin-right: 16px;
 }
 
-.division{
+.division {
     margin-top: 32px;
 }
 
 
-ul{
+ul {
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
 
-margin-top: 16px;
-color: #FFFFFF;
+    margin-top: 16px;
+    color: #FFFFFF;
 
 
 
 }
-.flexbox{
+
+.flexbox {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin: 16px 0 0 50px;
 }
 
-.droebit path{
+.droebit path {
     fill: #FFF;
 
+}
+
+
+@media screen and (min-width:1440px) {
+
+
+    header {
+        padding: 65px 80px 0 80px;
+    }
+
+    .logo {
+        padding-right: 843px;
+        height: 49px;
+    }
+
+    .signin {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
+    .secondheader {
+        display: flex;
+        padding: 0 80px;
+    }
+
+    .illustration-1 {
+        width: 640px;
+        height: 474px;
+        order: 1;
+        margin-top: 81px;
+    }
+
+
+    .conteiner {
+        margin-top: 163px;
+
+    }
+
+    .secure {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    .stores {
+        font-size: 17px;
+        line-height: 24px;
+        text-align: left;
+
+
+    }
+
+    .conteiner2 {
+        display: flex;
+        margin-right: 104px;
+    }
+
+    .email {
+        margin-right: 16px;
+        height: 45px;
+        box-shadow: #2F65F8;
+
+    }
+
+    button {
+        margin: 0;
+    }
+
+    .getstarted {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    section {
+        display: flex;
+        padding: 0 80px 107px;
+    }
+
+    .sectiondv {
+        order: 1;
+    }
+
+    .illustration-2 {
+        width: 542px;
+        height: 409px;
+    }
+
+    .conteiner3 {}
+
+    h4 {
+        font-size: 40px;
+        line-height: 47px;
+        text-align: left;
+    }
+
+    span {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 38px;
+    }
+
+    .box {
+        justify-content: flex-start;
+    }
+
+    .kyle {
+        margin-right: 382px;
+    }
+
+    .info {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .avatar {
+        width: 32px;
+        height: 32px;
+    }
+
+    h2 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .founder {
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .mainfooter{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 120px 90px 80px;
+    }
+
+    .div2{
+        width: 480px;
+        height: 112px;
+
+    }
+
+    .div1{
+        width:533px ;
+        height: 137px;
+    }
+
+    .acsess{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: left;
+    }
+
+    .signup{
+        font-size: 16px;
+        line-height: 24px;
+text-align: left;
+    }
+
+    .two{
+        width: 50%;
+    }
+
+.flexbox{
+    width: unset;
+    justify-content:unset;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
 }
